@@ -24,8 +24,12 @@ namespace testVS2017p20190213.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page. abc";
 
+            return View();
+        }        
+        public ActionResult Test()
+        {
             return View();
         }
     }
